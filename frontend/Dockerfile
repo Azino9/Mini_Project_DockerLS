@@ -1,5 +1,5 @@
-# Use Node.js 14 Alpine as base image
-FROM node:14-alpine
+# Use Node.js 20 Alpine as base image for Vite compatibility
+FROM node:20-alpine
 
 # Set working directory
 WORKDIR /app
@@ -16,5 +16,5 @@ COPY . .
 # Expose port 3000
 EXPOSE 3000
 
-# Start the application
-CMD ["npm", "start"]
+# Start the Vite development server
+CMD ["npm", "run", "dev"]
