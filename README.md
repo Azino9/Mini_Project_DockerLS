@@ -109,7 +109,7 @@ Docker configuration files (`Dockerfile` and `docker-compose.yml`) are prepared 
 This project is currently in the initial setup phase with basic functionality implemented.
 
 ## Repository
-GitHub Repository: [fullstack-docker-app](https://github.com/yourusername/fullstack-docker-app)
+GitHub Repository: [fullstack-docker-app](https://github.com/Azino9/Mini_Project_DockerLS)
 
 ## License
 This project is for educational purposes.
